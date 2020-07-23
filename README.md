@@ -1,6 +1,6 @@
 # Git-Help
 
-## Steps to Add a Node.js Project to Github using Cloud9/GoormIDE/Any-Cloud-IDE
+## How to add a Node.js project to Github using Cloud9/GoormIDE/Any-Cloud-IDE
 1) git init
 2) git add .  (dot)
 3) git commit -m "FirstCommit"
@@ -8,7 +8,7 @@
 5) git remote add origin https://github.com/Priya-wd/yelpcamp.git
 6) git push -u origin master
 
-## Steps to Add a Node.js Project to Github using VS-Code
+## How to add a Node.js project to Github using VS-Code
 1) git init
 2) git add .  (dot) 
 3) git commit -m "FirstCommit"
