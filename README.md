@@ -77,10 +77,11 @@ git add .
 ## Git Remote
 ```
 git remote
-git remote [-v | --verbose]
-git remote add [-t <branch>] [-m <master>] [-f] [--[no-]tags] [--mirror=<fetch|push>] <name> <url>
+git remote -v
+git remote add <name> <url>
 git remote rename <old> <new>
-git remote remove <name>
+git remote remove <name> ||  git remote rm <name>
+
 git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
 git remote set-branches [--add] <name> <branch>…​
 git remote get-url [--push] [--all] <name>
