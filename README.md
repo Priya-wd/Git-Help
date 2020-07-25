@@ -49,6 +49,29 @@ $ git remote add origin https://github.com/Priya-wd/repo.git
 $ git push -u origin master
 ```
 
+## dotenv (.env)
+> Make sure you have installed dotenv package. 
+```
+npm install dotenv
+```
+>  Create a file as .env & add environment variables. e.g:
+```
+DB_USER=demo123
+DB_URL=mongodb://localhost:27017/dbname
+```
 
+## .gitignore
+> Create a file .gitignore & add all files & folders which you want to hided from others to it. For e.g:
+```
+node_mdules/
+.env
+package-lock.json
+```
+> After saving .ignore file run following commands
+```
+git rm -rf --cached .
+git add .
+```
+> This removes all files from the repository and adds them back (this time respecting the rules in your .gitignore).
 
 
